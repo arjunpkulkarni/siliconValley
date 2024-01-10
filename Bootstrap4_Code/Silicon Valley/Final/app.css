@@ -1,18 +1,29 @@
+@font-face {
+    font-family: 'eleven';
+    src: url('../Final//fonts/11.20___.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'maddac';
+    src: url('../Final//fonts/FontsFree-Net-Maddac.TTF') format('truetype');
+}
+
+
 body {
-    background: #f5d9d5;
-    font-family: "Nunito", sans-serif;
+    background: #000000;
+    font-family:  "Rubik", "Nunito", sans-serif;
 }
 
 .blurb h2 {
    color: #EA1C2C;
-   font-weight: 100;
+   font-weight: 900;
    font-size: 2.5rem;
 }
 
 .blurb p {
-    color: #f498b8;
-    font-weight: 100;
-    font-size: 1.125rem;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.25rem;
     line-height: 2;
 }
 
@@ -23,33 +34,49 @@ body {
 
 #mainNavbar {
     font-size: 1.5rem;
-    font-weight: 100;    
+    font-weight: 100;
 }
 
 #mainNavbar .nav-link {
     color: white;
+    margin-left: 20px;
+    font-size: 1.3rem;
+    justify-content: center;
 }
 
 #mainNavbar .nav-link:hover {
     color: #EA1C2C;
+    background-color: azure;
+    font-weight: 700;
+    border-radius: 15px; /* Adjust the radius as needed */
+    padding: 5px 10px;
 }
 
 #mainNavbar .navbar-brand {
     color: #EA1C2C;
-    font-size: 1.5rem;
+    font-size: 3rem;
+    font-weight: 1000;
+    font-family: "eleven";
+    margin-right: 330px;
+    margin-left: 5px;
+}
+
+#profile-icon {
+    margin-right: 20px;
 }
 
 #headingGroup span {
     color: #EA1C2C;
+    font-weight: bold;
 }
 
 #headingGroup h1 {
     font-weight: 100;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .navbar.scrolled {
-    background: rgb(222,192,222);
+    background: rgb(231, 182, 182);
     transition: background 500ms;
 }
 

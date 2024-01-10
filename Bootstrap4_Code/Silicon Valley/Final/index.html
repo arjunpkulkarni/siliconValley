@@ -8,75 +8,94 @@
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
-    <title>Museum of Candy</title>
+    <title>DJDOC</title>
 </head>
 
 <body>
     <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-        <a href="#" class="navbar-brand">CANDY</a>
+        <a href="#" class="navbar-brand">DJDOC</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navLinks">
+        <div class="collapse navbar-collapse justify-content-center" id="navLinks">
+            <ul class="navbar-nav mr-auto justify-content-center">
+                <li class="nav-item">
+                    <a href="" class="nav-link">Harmonix</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">MixMeister</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">SetBuilder</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">RemixMaster</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">AuClean</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">SpotConvert</a>
+                </li>
+            </ul>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="" class="nav-link">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">TICKETS</a>
+                    <a href="" class="nav-link" id="profile-icon">
+                        <i class="fas fa-user"></i> <!-- Font Awesome User Icon -->
+                    </a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <section class="container-fluid px-0">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
-                    <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+
+    <div class="row align-items-center content">
+        <div class="col-md-6 text-center">
+            <div class="row justify-content-center">
+                <div class="col-10 col-lg-8 blurb mb-5 mb-md-0 text-left">
+                    <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5 py-2">
+                        <h1 class="text-left" id="main-title" style="font-weight: 900; font-size: 2.5rem";>DJ<span> / </span>MUSIC<span> / </span>PLATFORM</h1>
+                    </div>
+                    <p class="lead">Welcome to our comprehensive web platform, crafted specifically for DJs of all skill
+                        levels.
+                        We offer a wide range of services catering to various aspects of the DJ craft,
+                        from beginner tutorials to advanced mixing techniques, equipment reviews, and community
+                        engagement.</p>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <img class="img-fluid" src="imgs/hand2.png" alt="">
-            </div>
         </div>
-    </section>
+        <div class="col-md-6 text-center mt-5">
+            <img src="imgs/DJpixel4.png" alt="" class="img-fluid" style="width: 400px; height: 375px;">
+        </div>
+    </div>
 
     <section class="container-fluid px-0">
         <div class="row align-items-center content">
-            <div class="col-md-6 order-2 order-md-1">
-                <img src="imgs/milk.png" alt="" class="img-fluid">
+            <div class="col-md-6 order-2 order-md-1 text-center">
+                <img src="imgs/DJpixel6.png" alt="" class="img-fluid">
             </div>
             <div class="col-md-6 text-center order-1 order-md-2">
                 <div class="row justify-content-center">
-                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-                        <h2>MUSEUM OF CANDY</h2>
-                        <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae
-                            beatae, maiores deserunt
-                            in voluptatibus
-                            aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur
-                            repellat eveniet quidem
-                            voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam
-                            autem nam ex deserunt debitis
-                            eaque ratione! Nobis, quidem assumenda.</p>
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0 text-right">
+                        <h2 class="harmonix-title" style="color: orange; font-weight: bolder;">Harmonix</h2>
+                        <img src="imgs/DJpixel2.png" alt="" class="d-none d-lg-inline">
+                        <p class="lead">Connect with fellow DJs on our exclusive <span style="font-weight: bold;">social
+                                network</span>.
+                            Showcase your unique mixes and mashes, discover new talents, and get inspired by the vibrant
+                            DJ community.
+                            Elevate your musical journey with collaborative opportunities and feedback.</p>
                     </div>
                 </div>
             </div>
@@ -84,17 +103,14 @@
         <div class="row align-items-center content">
             <div class="col-md-6 text-center">
                 <div class="row justify-content-center">
-                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-                        <h2>MUSEUM OF CANDY</h2>
-                        <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae
-                            beatae, maiores deserunt
-                            in voluptatibus
-                            aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur
-                            repellat eveniet quidem
-                            voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam
-                            autem nam ex deserunt debitis
-                            eaque ratione! Nobis, quidem assumenda.</p>
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0 text-left">
+                        <h2 class="audio-clean-title" style="color: rgb(0, 225, 255); font-weight: bold;">AuClean</h2>
+                        <img src="imgs/DJpixel1.png" alt="" class="d-none d-lg-inline" style="padding-bottom: 20px;">
+                        <p class="lead">Transform your tracks with AuClean: Mix and master effortlessly using our
+                            AI-powered Master Helper.
+                            Experience pristine audio quality and professional-grade <span
+                                style="font-weight: bold;">sound enhancement</span>,
+                            all designed to elevate your music to its highest potential.</p>
                     </div>
                 </div>
             </div>
@@ -103,25 +119,55 @@
             </div>
         </div>
         <div class="row align-items-center content">
-            <div class="col-md-6 order-2 order-md-1">
-                <img src="imgs/sprinkles.png" alt="" class="img-fluid">
+            <div class="col-md-6 order-2 order-md-1 text-center">
+                <img src="imgs/DJpixel8.png" alt="" class="img-fluid">
             </div>
             <div class="col-md-6 text-center order-1 order-md-2">
                 <div class="row justify-content-center">
-                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-                        <h2>MUSEUM OF CANDY</h2>
-                        <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae
-                            beatae, maiores
-                            deserunt
-                            in voluptatibus
-                            aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur
-                            repellat eveniet
-                            quidem
-                            voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam
-                            autem nam ex deserunt
-                            debitis
-                            eaque ratione! Nobis, quidem assumenda.</p>
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0 text-right">
+                        <h2 class="mixmeister-title" style="color: rgb(5, 255, 5); font-weight: bold;">MixMeister</h2>
+                        <img src="imgs/harmonix.png" alt="" class="d-none d-lg-inline">
+                        <p class="lead">Introducing our <span style="font-weight: bold;">DJ Recommender</span>: a smart
+                            tool that tailors song recommendations
+                            based on your last track and desired genre for the next. Seamlessly blend your sets with
+                            precision,
+                            ensuring a perfectly curated musical journey every time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center content">
+            <div class="col-md-6 text-center">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0 text-left">
+                        <h2 class="audio-clean-title" style="color: rgb(183, 0, 255); font-weight: bolder;">RemixMaster
+                        </h2>
+                        <img src="imgs/DJpixel1.png" alt="" class="d-none d-lg-inline" style="padding-bottom: 20px;">
+                        <p class="lead">Unleash the full potential of your music with our AI-Powered <span
+                                style="font-weight: bold;">remixing</span> tool.
+                            Simply plug in and explore groundbreaking remix capabilities that will take your sound to
+                            new, exhilarating heights.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="imgs/DJpixel5.png" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="row align-items-center content">
+            <div class="col-md-6 order-2 order-md-1 text-center">
+                <img src="imgs/DJpixel7.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0 text-right">
+                        <h2 class="mixmeister-title" style="color: rgb(229, 255, 0); font-weight: bolder;">SetBuilder
+                        </h2>
+                        <img src="imgs/DJpixel3.png" alt="" class="d-none d-lg-inline">
+                        <p class="lead">Discover the power of our specially trained Large Language Model <span
+                                style="font-weight: bold;">(LLM)</span>,
+                            designed to assist you in creating seamless DJ sets tailored to your unique style and
+                            preferences.</p>
                     </div>
                 </div>
             </div>
@@ -129,11 +175,14 @@
     </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
     <script>

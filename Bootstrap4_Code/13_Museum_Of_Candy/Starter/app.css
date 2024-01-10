@@ -1,0 +1,25 @@
+body {
+    background: black;
+    font-family: "Nunito";
+}
+
+#mainNavbar .navbar-brand {
+    color: rgb(245, 146, 121);
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#mainNavbar .nav-link {
+    font-size: 1.3em;
+    color: aliceblue;
+}
+
+#mainNavbar .nav-link:hover {
+    font-size: 1.3em;
+    background-color: rgb(245, 146, 121);
+}
+
+.slash-span {
+    color: white;
+}
+
